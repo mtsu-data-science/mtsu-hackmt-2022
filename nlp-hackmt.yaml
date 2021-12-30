@@ -18,15 +18,18 @@ dependencies:
   - boto=2.49.0=py39hecd8cb5_0
   - boto3=1.18.21=pyhd3eb1b0_0
   - botocore=1.21.41=pyhd3eb1b0_1
+  - bottleneck=1.3.2=py39he3068b8_1
+  - brotli=1.0.9=hb1e8313_2
   - brotlipy=0.7.0=py39h9ed2024_1003
   - bz2file=0.98=py39hecd8cb5_1
-  - ca-certificates=2021.10.8=h033912b_0
+  - ca-certificates=2021.10.26=hecd8cb5_2
   - catalogue=1.0.0=pyhd3eb1b0_0
-  - certifi=2021.10.8=py39h6e9494a_1
+  - certifi=2021.10.8=py39hecd8cb5_0
   - cffi=1.14.6=py39h2125817_0
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - click=8.0.3=pyhd3eb1b0_0
   - cryptography=36.0.0=py39hf6deb26_0
+  - cycler=0.11.0=pyhd3eb1b0_0
   - cymem=2.0.5=py39h23ab428_0
   - cython=0.29.23=py39h23ab428_0
   - cython-blis=0.7.4=py39h9ed2024_1
@@ -35,7 +38,10 @@ dependencies:
   - defusedxml=0.7.1=pyhd8ed1ab_0
   - entrypoints=0.3=pyhd8ed1ab_1003
   - flit-core=3.6.0=pyhd8ed1ab_0
+  - fonttools=4.25.0=pyhd3eb1b0_0
+  - freetype=2.11.0=hd8bbffd_0
   - gensim=4.0.1=py39h23ab428_0
+  - giflib=5.2.1=haf1e3a3_0
   - icu=68.2=he49afe7_0
   - idna=3.3=pyhd3eb1b0_0
   - intel-openmp=2021.4.0=hecd8cb5_3538
@@ -46,6 +52,7 @@ dependencies:
   - jinja2=3.0.3=pyhd8ed1ab_0
   - jmespath=0.10.0=pyhd3eb1b0_0
   - joblib=1.1.0=pyhd3eb1b0_0
+  - jpeg=9d=h9ed2024_0
   - json5=0.9.5=pyh9f0ad1d_0
   - jsonschema=3.0.2=py39hecd8cb5_0
   - jupyter_client=7.1.0=pyhd8ed1ab_0
@@ -54,19 +61,29 @@ dependencies:
   - jupyterlab=3.2.1=pyhd3eb1b0_1
   - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0
   - jupyterlab_server=2.10.2=pyhd8ed1ab_0
+  - kiwisolver=1.3.1=py39h23ab428_0
+  - lcms2=2.12=hf1fd2bf_0
   - libcxx=12.0.0=h2f01273_0
   - libffi=3.3=hb1e8313_2
   - libgfortran=3.0.1=h93005f0_2
+  - libpng=1.6.37=ha441bb4_0
   - libsodium=1.0.18=hbcb3906_1
+  - libtiff=4.2.0=h87d7836_0
   - libuv=1.42.0=h0d85af4_0
+  - libwebp=1.2.0=hacca55c_0
+  - libwebp-base=1.2.0=h9ed2024_0
   - llvm-openmp=12.0.0=h0dcd299_1
+  - lz4-c=1.9.3=h23ab428_1
   - markupsafe=2.0.1=py39h89e85a6_1
+  - matplotlib=3.5.0=py39hecd8cb5_0
+  - matplotlib-base=3.5.0=py39h4f681db_0
   - matplotlib-inline=0.1.3=pyhd8ed1ab_0
   - mistune=0.8.4=py39h89e85a6_1005
   - mkl=2021.4.0=hecd8cb5_637
   - mkl-service=2.4.0=py39h9ed2024_0
   - mkl_fft=1.3.1=py39h4ab4a9b_0
   - mkl_random=1.2.2=py39hb2f4e1b_0
+  - munkres=1.1.4=py_0
   - murmurhash=1.0.5=py39h23ab428_0
   - nbclassic=0.3.4=pyhd8ed1ab_0
   - nbclient=0.5.9=pyhd8ed1ab_0
@@ -77,15 +94,19 @@ dependencies:
   - nltk=3.6.5=pyhd3eb1b0_0
   - nodejs=14.17.4=hb529b34_0
   - notebook=6.4.6=pyha770c72_0
+  - numexpr=2.8.1=py39h2e5f0a9_0
   - numpy=1.21.2=py39h4b4dc7a_0
   - numpy-base=1.21.2=py39he0bd621_0
-  - openssl=1.1.1l=h0d85af4_0
+  - olefile=0.46=pyhd3eb1b0_0
+  - openssl=1.1.1l=h9ed2024_0
   - packaging=21.3=pyhd8ed1ab_0
+  - pandas=1.3.4=py39h743cdd8_0
   - pandoc=2.16.2=h0d85af4_0
   - pandocfilters=1.5.0=pyhd8ed1ab_0
   - parso=0.8.3=pyhd8ed1ab_0
   - pexpect=4.8.0=pyh9f0ad1d_2
   - pickleshare=0.7.5=py_1003
+  - pillow=8.4.0=py39h98e4679_0
   - pip=21.2.4=py39hecd8cb5_0
   - plac=1.1.0=py39hecd8cb5_0
   - preshed=3.0.5=py39h23ab428_4
@@ -109,6 +130,7 @@ dependencies:
   - s3transfer=0.5.0=pyhd3eb1b0_0
   - scikit-learn=1.0.1=py39hae1ba45_0
   - scipy=1.7.1=py39h88652d9_2
+  - seaborn=0.11.2=pyhd3eb1b0_0
   - send2trash=1.8.0=pyhd8ed1ab_0
   - setuptools=58.0.4=py39hecd8cb5_0
   - six=1.16.0=pyhd3eb1b0_0
@@ -135,6 +157,7 @@ dependencies:
   - xz=5.2.5=h1de35cc_0
   - zeromq=4.3.4=he49afe7_1
   - zlib=1.2.11=h4dc903c_4
+  - zstd=1.4.9=h322a384_0
   - pip:
     - colorama==0.4.4
     - gitdb==4.0.9
