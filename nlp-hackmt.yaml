@@ -165,5 +165,6 @@ dependencies:
     - jupyter-server-mathjax==0.2.3
     - jupyterlab-git==0.34.0
     - nbdime==3.1.1
+    - python-levenshtein==0.12.2
     - smmap==5.0.0
     - typing-extensions==4.0.1
