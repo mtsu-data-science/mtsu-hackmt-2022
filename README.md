@@ -6,11 +6,13 @@ This is a public repository for the Data Science Club team to use for collaborat
 
 ## Background and Problem Statement
 
-In the United States, there are over 1.5 million non-profit organizations, ranging in services from homeless shelters to professional organizations. Though they all offer much needed services, most of them are difficult to locate and go largely unnoticed by those who need them. Additionally, very few of them work together to offer a suite of services, that if offered, would provide a person with the support, skills training, and connections necessary to help them. Project Maslow is connecting the non-profit network and making their services available for anyone who seeks assistance or growth. And by connecting non-profit services thoughtfully, we are using data analytics and AI, we will be able to help individuals plot a path to anywhere they wish to go. Our mission is to connect people, resources, and community to create endless opportunity.
+In the United States, there are over 1.5 million non-profit organizations, ranging in services from homeless shelters to professional organizations. Though they all offer much needed services, most of them are difficult to locate and go largely unnoticed by those who need them. Additionally, very few of them work together to offer a suite of services, that if offered, would provide a person with the support, skills training, and connections necessary to help them. [Project Maslow](https://www.projectmaslow.org/) is connecting the non-profit network and making their services available for anyone who seeks assistance or growth. And by connecting non-profit services thoughtfully, we are using data analytics and AI, we will be able to help individuals plot a path to anywhere they wish to go. Our mission is to connect people, resources, and community to create endless opportunity.
 
 For the Hackathon challenge, since non-profit organizations operate using mission statements and they don’t have the published service categories that are needed, you will be helping determine what services are offered using tax data from the IRS for all non-profits that have applied for non-profit status in the US over the last 7 years. The data set is large and in free-form text, describing multiple non-profit businesses. Since Project Maslow will require knowing what services are offered by the non-profits in the non-profit network, you will use natural language processing and any other tools at your disposal to categorize these great organizations using their descriptions and you will plot them geographically based on their locations. Project Maslow will use your results to launch their first functioning prototype.
 
 ## Data Files
+
+The [project_maslow_starter_notebook](project_maslow_starter_notebook.ipynb) includes python code that will take care of downloading the Project Maslow files and has functions that takes care of loading the files into dataframes.
 
 ### nonprofit.txt
 
