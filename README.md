@@ -33,7 +33,7 @@ This file contains information about the non-profit such as the non-profit's nam
 
 ### nonprofit_text.txt
 
-This file contains descriptions of the non-profits that will be used for mining what kind of service the non-profit offers.  There is a `nonprofit_id` that can be used to join this back a non-profits information for data visualization.
+This file contains descriptions of the non-profits in the `description` column that will be used for mining what kind of service the non-profit offers.  There is a `nonprofit_id` that can be used to join this back a non-profits information for data visualization.
 
 |column_name|data_type|
 |-|-|
