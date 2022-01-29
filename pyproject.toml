@@ -15,6 +15,7 @@ pyLDAvis = "^3.3.1"
 jupyter = "^1.0.0"
 notebook = "^6.4.8"
 matplotlib = "^3.5.1"
+seaborn = "^0.11.2"
 
 [tool.poetry.dev-dependencies]
 isort = "^5.9.3"

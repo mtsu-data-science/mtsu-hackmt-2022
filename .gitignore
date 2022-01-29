@@ -1,6 +1,7 @@
 # custom ignore
 .vscode/
 .DS_Store
+mallet-2.0.8/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
